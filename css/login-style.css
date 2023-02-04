@@ -1,0 +1,94 @@
+/* *{
+    margin:0;
+    padding:0;
+    font-size:12px;
+    line-height:20px;
+} */
+#register{
+    width:725px;
+    height: 500px;
+    margin: 0 auto;
+    background-color: #333e22;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-top: 50px;
+    padding-top: 50px;
+}
+.hr_1 {
+    font-size: 14px;
+    font-weight: bold;
+    color: #eff1f2;
+    height: 35px;
+    border-bottom: 2px solid #eff1f2;
+    vertical-align:bottom;
+    padding-left:12px;
+    margin-bottom: 15px;
+}
+#register dl{clear: both; height: 30px;padding-top: 15px;}
+#register dl dt{
+    text-align:right;
+    width:80px;
+    height:25px;
+    padding-right:5px;
+    float: left;
+    font-size: 15px;
+}
+#register dl dd{
+    float: left;}
+#register dl dd div{ display: inline; padding-left: 5px;}
+#register dl dd input:not(.btn){
+    width:130px;
+    height:18px;
+    border:solid 1px #0066FF;
+}
+
+#register dl dd input {
+    color: black;
+}
+
+.red{
+    color:#cc0000;
+    font-weight:bold;
+}
+
+/* div{
+    color:#F00;
+} */
+
+#user_prompt,#pwd_prompt,#repwd_prompt,#email_prompt,#mobile_prompt,#birth_prompt {
+    font-size: 14px;
+    color: #cf340d;
+}
+
+#submit-button,#signup-button {
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 999px;
+    color: #333e22;
+    cursor: pointer;
+    line-height: 1.5;
+    font-family: Madefor-Text,HelveticaNeueW01-55Roma,HelveticaNeueW02-55Roma,HelveticaNeueW10-55Roma,sans-serif;
+    padding-bottom: 14px;
+    font-size: 16px;
+    height: 43px;
+    padding-top: 8px;
+    transition: background-color .3s,color .3s,background .3s,box-shadow .1s ease-in-out;
+    min-width: 168px;
+    /* background-color: #116dff; */
+    background-color: #eff1f2;
+    position: relative;
+    left: -30px;
+    bottom: -10px;
+}
+
+#submit-button>a,#signup-button>a {
+    color: black;
+}
+
+#submit {
+    padding-left: 0px;
+}
+
+#signup-button {
+    margin-left: 50px;
+}

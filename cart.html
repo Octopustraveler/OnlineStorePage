@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+
+<!-- Font-Awesome -->
+<link rel="stylesheet" href="css/font-awesome.css">
+
+<!-- 公共 body 样式表 -->
+<link rel="stylesheet" href="css/public-body-style.css">
+
+<!-- 公共头部样式表 -->
+<link rel="stylesheet" href="css/public-head-style.css">
+
+<!-- 公共导航栏样式表 -->
+<link rel="stylesheet" href="css/public-nav-title-style.css">
+
+<!-- 公共页脚样式表 -->
+<link rel="stylesheet" href="css/public-footer-style.css">
+
+<!-- 此页样式表 -->
+<link rel="stylesheet" href="css/cart-style.css">
+
+<script src="js/jquery-3.6.0.js"></script>
+<script src="js/public-style.js"></script>
+
+<!-- 此页脚本 -->
+<script src="js/shopping.js"></script>
+
+<body>
+    <div class="head">
+        <!-- 公共头部标题栏 -->
+        <div class="headTitle">
+            <div>
+                <div class="logo">
+                    <img src="images/favicon.ico" class="logoImage" alt="logo">
+                </div>
+
+                <div class="headSpan">
+                    <span>Welcome to WIX Online Store</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 公共导航栏部分 -->
+    <div class="navTitle">
+        <nav class="tags">
+            <a href="index.html">首页</a>
+            <a href="shop.html">门市</a>
+            <a href="menus.html">菜单</a>
+            <a href="about.html">关于</a>
+            <a href="products.html">产品</a>
+            <a href="FAQ.html">常见问题</a>
+            <a href="contact.html">联系</a>
+            <a href="login.html">登录</a>
+            <a href="cart.html"><img src="images/shopbag.png" alt="shopbag" id="shopbag"></a>
+        </nav>
+    </div>
+        
+    <!-- 此页内容部分 -->
+    <div class="container">
+        <div class="sec-container">
+            <div class="left">
+                <div id="mycart-conta">
+                    <h1>我的购物车</h1>
+                </div>
+                <!-- 商品部分 -->
+                <div id="middle-cart">
+                    <!-- 图片设左浮动 -->
+                    <div id="img-conta"><img src="images/cart1.webp" alt=""></div>
+                    <!-- 商品描述 -->
+                    <div class="pro-info">
+                        <h1>商品名称</h1>
+                        <p>HK$ <span>85.20</span> </p>
+                        <p>颜色: 黑</p>
+                    </div>
+                    <!-- 数量控制 -->
+                    <div class="num-control">
+                        
+                        <div class="minus-num-plus" style="z-index: 10;">
+                            <!-- <input type="button" name="minus" value="-" onclick="minus(0);"> -->
+                            <button id="minus">-</button>
+                            <input type="text" name="amount" id="num" value="1">
+                            <!-- <input type="button" name="plus" value="+" onclick="plus(0);"> -->
+                            <button id="plus">+</button>
+                        </div>
+                    </div>
+                    <div id="end-info">
+                        <a href=""><h1><i class="fa fa-tag"></i>输入促销代码</h1></a>
+                        <a href=""><h1><i class="fa fa-file-text-o"></i>新增说明</h1></a>
+                    </div>
+                </div>
+            </div>
+
+            
+
+            <div class="right">
+                <div>
+                    <div id="order-brief"><h1>订单摘要</h1></div>
+                </div>
+                
+                <div id="totalPrice">
+                    <h1>总计: HK$<span id="calcu">85.20</span></h1>
+                    <button>结账</button>
+                </div>    
+            </div>
+        </div>
+    </div>
+
+
+    <!-- 公共页脚部分 -->
+    <div class="footer">
+        <div class="otherLink">
+            <a href="https://www.facebook.com"><i class="fa fa-facebook"></i></a>
+            <a href="https://twitter.com"><i class="fa fa-twitter"></i></a>
+            <a href="https://www.linkedin.com"><i class="fa fa-linkedin"></i></a>
+        </div>
+
+        <div class="copyRight">
+            <p>©2021 create by 朱青松. ID: 20204131077</p>
+        </div>
+    </div>
+
+</body>
+</html>

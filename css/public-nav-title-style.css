@@ -1,0 +1,23 @@
+.navTitle {
+    height: 45px;
+    width: 100%;
+    background-color: #eff1f2;
+
+}
+.tags {
+    padding: 5px 110px;
+
+}
+.tags a {
+    font-size: 17px !important;
+    color: #2a331d;
+    padding-right: 25px;
+    text-decoration: none;
+    
+}
+#shopbag {
+    width: 22px;
+    height: 25px;
+    float: right;
+    position: relative;
+}

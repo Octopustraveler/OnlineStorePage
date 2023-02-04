@@ -1,0 +1,36 @@
+.head {
+    height: 100px;
+    width: 100%;
+    border-top: 3px solid #a0138e;
+}
+
+.headTitle {
+    width: 100%;
+}
+
+.headTitle>div {
+    height: 100px;
+    width: 100%;
+    margin: 0px auto;
+    margin-top: 14px;
+}
+
+/* logo图设为左浮动，使头标题左浮动与logo */
+.logo {
+    float: left;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+/* 设置标题文字居中 */
+.headSpan {
+    width: 100%;
+    padding-top: 19px;
+
+}
+
+.logoImage {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}

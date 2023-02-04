@@ -1,0 +1,101 @@
+.shop-items {
+    /* height: 1100px; */
+    width: 100%;
+    background-color: #fdfcf9;
+}
+
+.items-container {
+    height: 1100px;
+    width: 1200px;
+    /* background-color: #fdfcf9; */
+    margin: 0 auto;
+}
+
+.list-container {
+    width: 960px;
+    margin: 0px auto;
+    padding-top: 70px;
+}
+
+/* li 标签列设为左浮动 */
+.items{
+    float: left;
+}
+
+/* 用 position 设置标签内用来动画效果的 div 的位置使其固定 */
+.items>div {
+    position: relative;
+    height: 290px;
+    padding: 10px;
+}
+
+.items div img {
+    width: 220px;
+    height: 220px;
+}
+.img-animate {
+    background-color: #fbf9f7;
+    height: 55px;
+    width: 220px;
+    margin: 0 auto;
+    position: absolute;
+    bottom: 80px;
+    left: 10px;
+    display: none;
+}
+
+.img-animate>span {
+    display: block;
+    padding-top: 13px;
+    text-align: center;
+    font-size: 15px !important;
+    text-decoration: none !important;
+    color: #333e22 !important;
+}
+
+.img-caption {
+    width: 220px;
+    margin: 0 auto;
+}
+
+.img-caption p {
+    display: block;
+    color: #28311B;
+    text-align: center;
+    font-size: 16px;
+}
+
+.img-caption p:nth-child(2) {
+    padding-top: 10px;
+}
+
+.items:nth-child(11) span{
+    font-size: 16px;
+    color: #28311B;
+}
+
+.items:nth-child(11) span:nth-child(1) {
+    font-size: 12px;
+    text-decoration: line-through;
+}
+
+.items:nth-child(11) span:nth-child(2) {
+    padding-left: 5px;
+}
+
+/* 商品左上角 tag */
+.item-tag {
+    position: absolute;
+    background-color: #ae582d;
+    top: 10px;
+    left: 10px;
+}
+
+.item-tag>span {
+    display: block;
+    color: #fdfcf9 !important;
+    text-align: center;
+    font-size: 16px !important;
+    padding: 10px 15px;
+    text-decoration: none !important;
+}
